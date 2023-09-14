@@ -2,31 +2,11 @@ body {
     background-color: rgb(236, 211, 180);
 }
 
-h1 {
-    text-align: left;
-    font-size: 200%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 10%;
-    margin-top: -1%;
-} 
 
-nav, p {
-    display: inline;
-    margin-left: 13%;
-    font-size: 25px;
-
-}
-
-a {color: rgb(45, 4, 114);
+/*a {color: rgb(45, 4, 114);
    text-decoration: none;}
 
-header {
-    border-color: solid 2px black;
-    background-color: rgb(200, 171, 226);
-    border-radius: 10px;
-    margin-left: 8%;
-    margin-right: 10%;
-}
+*/
 
 .imagenes {
     margin-left: 5%;
@@ -46,9 +26,31 @@ header {
 }
 
 #logo {
-    width: 100px;
-    height: 100px;
-    margin-left: -10%;
-    margin-top: 2%;
-    margin-bottom: -5%;
+    width: 90px;
+    height: 80px;
+    margin-left: 27%;
+    margin-top: 1%;}
+   
+
+h1{
+    margin-left: 5%;
+    margin-top: -4%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    background-color: rgb(200, 171, 226);
 }
+
+#menu{
+    margin-top: -7%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: blueviolet;
+}
+
+header {
+    background-color: rgb(200, 171, 226);
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+
+/*  */
