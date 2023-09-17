@@ -19,13 +19,22 @@
             <img id="logo" src="imagenes/imagen.png">
            <h1>Knitting with love</h1>
            
+            <nav id="barra" class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form  class="d-flex" role="search">
+                <input id="buscador" class="form-control me-2"  data-bs-toggle="dropdown" type="search" placeholder="Buscar" aria-label="Search">
+                <button id="boton" class="btn btn-outline-success" type="submit">Buscar producto</button>
+              </form>
+            </div>
+          </nav>
+
            <button id="menu" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             Menu
           </button>
           <ul class=" dropdown-menu Dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#">Informacion de la tienda</a></li>
-            <li><a class="dropdown-item" href="#">Formulario</a></li>
-            <li><a class="dropdown-item" href="#">Productos</a></li>
+            <li><a class="dropdown-item" href="#Informacion">Informacion de la tienda</a></li>
+            <li><a class="dropdown-item" href="#Productos">Productos</a></li>
+            <li><a class="dropdown-item" href="#Formulario">Formulario</a></li>
           </ul>
 
           </div>
@@ -33,10 +42,8 @@
       </header>
     </div> 
 
-      
-    
 
-<div class="imagenes">
+<div id="Productos" class="imagenes">
 <a href="articulo 1.html"><img id="izquierda" src="imagenes/imagen rosa.png"></a>
 <a href="articulo 2.html"><img id="derecha" src="imagenes/imagen amapola.png"></a>
 <a href="articulo 3.html"><img id="izquierda" src="imagenes/imagen crisantemo 4.png"></a>
@@ -49,11 +56,16 @@
 <a href="articulo 10.html"><img id="derecha" src="imagenes/imagen pato.png"></a>
 </div>
 
-
+<div id="Formulario">
+<form>
+  <label>Ingrese nombre:<input type="text" name="Nom" placeholder="Nombre usuario:" required></label>
+</form>
+</div>
 
 
 <!-- a -->
 
+<script src="Proyecto final.js"></script>
 
 </body>
 </html>

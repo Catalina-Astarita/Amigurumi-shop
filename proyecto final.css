@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(236, 211, 180);
+    background-color: rgb(190, 106, 235);
 }
 
 
@@ -33,24 +33,38 @@ body {
    
 
 h1{
-    margin-left: 5%;
+    margin-left: 6%;
     margin-top: -4%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 250%;
-    background-color: rgb(200, 171, 226);
+    
 }
 
 #menu{
-    margin-top: -7%;
+    margin-top: -5%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     background-color: blueviolet;
+    margin-left: 1%;
 }
 
 header {
-    background-color: rgb(200, 171, 226);
-    margin-left: 2%;
-    margin-right: 2%;
+    background-color: rgb(223, 194, 236);
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: -1%;
     }
 
+
+#barra {
+    margin-left: 35%;
+    margin-right: 36%;
+    margin-top: -4%;
+}
+
+#boton {
+   margin-right: -65%;}
+
+
 /*  */
+
