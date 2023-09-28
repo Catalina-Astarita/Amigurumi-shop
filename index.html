@@ -3,21 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Knitting with love</title>
-    <link rel="stylesheet" href="proyecto final.css">
+    <title>Oveja Negra</title>
+    <link rel="stylesheet" href="ProyectoFinal.css">
     <link rel="icon" href="imagenes/imagen.png">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="C:\Users\Compumar\OneDrive\Escritorio\CATA\clases\Repositorio git\Bootstrap\css\bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
   </head>
 
 
-<body>
+<body class="hola">
 
     <header>
         <nav>
           <div>
             <img id="logo" src="imagenes/imagen.png">
-           <h1>Knitting with love</h1>
+           <h1>Oveja Negra</h1>
            
             <nav id="barra" class="navbar bg-body-tertiary">
             <div class="container-fluid">
@@ -31,10 +30,13 @@
            <button id="menu" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
             Menu
           </button>
-          <ul class=" dropdown-menu Dropdown-menu-dark">
+          <ul id="lista" class="dropdown-menu Dropdown-menu-dark">
             <li><a class="dropdown-item" href="#Informacion">Informacion de la tienda</a></li>
+            <li><a class="dropdown-item" href="#Promos">Promos</a></li>
             <li><a class="dropdown-item" href="#Productos">Productos</a></li>
-            <li><a class="dropdown-item" href="#Formulario">Formulario</a></li>
+            <li><a class="dropdown-item" href="#Personalizacion">Personalizacion</a></li>
+            <li><a class="dropdown-item" href="#Metodos de pago">Metodos de pago</a></li>
+            <li><a class="dropdown-item" href="#Formulario">Ayuda</a></li>
           </ul>
 
           </div>
@@ -43,17 +45,155 @@
     </div> 
 
 
+<h3>PERSONALIZA Y COMPRA TU AMIGURUMI</h3>
+
+<h4>PROMOS</h4>
+
+<div class="card" style="width: 18rem;">
+  <img src="imagenes/imagen conejo.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <p class="card-text">Somcard title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+
+
+<!--
+   
+
+
+    <div>
+      <input id="boton" type="button" value="Invertir">
+      </div>
+ --> 
+
+<h5>Lo mas vendido</h5>
+
+
+<div id="Productos" class="imagenes">
+    <div  id="izquierda" class="card" style="width: 25rem;">
+      <img src="imagenes/imagen rosa.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Flor reversible tejida
+          al crochet<br>Tematica: Rosa<br>Tamaño: 10cm</p>
+      </div>
+    </div>
+
+    <div id="centro" class="card" style="width: 25rem;">
+      <img src="imagenes/imagen amapola.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $358<br><br>Flor reversible tejida
+          al crochet<br>Tematica: Amapola<br>Tamaño: 10cm</p>
+      </div>
+    </div>
+
+    <div id="derecha" class="card" style="width: 25rem;">
+      <img src="imagenes/imagen flor mia.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $357<br><br>Flor reversible tejida
+          al crochet<br>Tematica: Crisantemo<br>Tamaño: 10cm</p>
+      </div>
+    </div>
+
+    <div id="izquierda" class="card" style="width: 25rem;">
+      <img src="imagenes/imagen dragon.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero tejido al crochet
+          <br>Tematica: Dragon<br>Tamaño: 8cm</p>
+      </div>
+    </div>
+
+    <div id="centro" class="card" style="width: 25rem;">
+      <img src="imagenes/imagen elefante.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero tejido al crochet
+          <br>Tematica: Elefante<br>Tamaño: 8cm</p>
+      </div>
+    </div>
+
+    <div id="derecha" class="card" style="width: 25rem;">
+      <img src="imagenes/imagen conejo.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero tejido al crochet
+          <br>Tematica: Conejo<br>Tamaño: 8cm</p>
+      </div>
+    </div>
+
+    <div  id="izquierda" class="card" style="width: 25rem;">
+      <img src="imagenes/imagen girasol.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">PRECIO: $350<br><br>Flor reversible tejida
+        al crochet<br>Tematica: Girasol<br>Tamaño: 10cm</p>
+      </div>
+    </div>
+
+    <div id="centro" class="card" style="width: 25rem;">
+      <img src="imagenes/Piglet.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero tejido al crochet
+          <br>Tematica: Piglet<br>Tamaño: 8cm</p>
+      </div>
+    </div>
+
+    <div id="derecha" class="card" style="width: 25rem;">
+      <img src="imagenes/Star Wars.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero tejido al crochet
+          <br>Tematica: Maestro Yoda<br>Tamaño: 8cm</p>
+      </div>
+    </div>
+
+    <div id="izquierda" class="card" style="width: 25rem;">
+      <img src="imagenes/Tigger.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero tejido al crochet
+          <br>Tematica: Tigger<br>Tamaño: 8cm</p>
+      </div>
+    </div>
+
+    <div id="centro" class="card" style="width: 25rem;">
+      <img src="imagenes/Igor.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero tejido al crochet
+          <br>Tematica: Igor<br>Tamaño: 8cm</p>
+      </div>
+    </div>
+
+    <div id="derecha" class="card" style="width: 25rem;">
+      <img src="imagenes/Winnie Pooh.png" class="card-img-top">
+      <div class="card-body">
+        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero tejido al crochet
+          <br>Tematica: Winnie Pooh<br>Tamaño: 8cm</p>
+      </div>
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 <div id="Productos" class="imagenes">
 <a href="articulo 1.html"><img id="izquierda" src="imagenes/imagen rosa.png"></a>
-<a href="articulo 2.html"><img id="derecha" src="imagenes/imagen amapola.png"></a>
-<a href="articulo 3.html"><img id="izquierda" src="imagenes/imagen crisantemo 4.png"></a>
-<a href="articulo 4.html"><img id="derecha" src="imagenes/imagen flor mia.png"></a>
-<a href="articulo 5.html"><img id="izquierda" src="imagenes/imagen girasol.png"></a>
+<a href="articulo 2.html"><img id="centro" src="imagenes/imagen amapola.png"></a>
+<a href="articulo 3.html"><img id="derecha" src="imagenes/imagen crisantemo 4.png"></a>
+<a href="articulo 4.html"><img id="izquierda" src="imagenes/imagen flor mia.png"></a>
+<a href="articulo 5.html"><img id="centro" src="imagenes/imagen girasol.png"></a>
 <a href="articulo 6.html"><img id="derecha" src="imagenes/imagen conejo.png"></a>
 <a href="articulo 7.html"><img id="izquierda" src="imagenes/imagen dragon.png"></a>
-<a href="articulo 8.html"><img id="derecha" src="imagenes/imagen elefante.png"></a>
-<a href="articulo 9.html"><img id="izquierda"src="imagenes/imagen oso.png"></a>
-<a href="articulo 10.html"><img id="derecha" src="imagenes/imagen pato.png"></a>
+<a href="articulo 8.html"><img id="centro" src="imagenes/imagen elefante.png"></a>
+<a href="articulo 9.html"><img id="derecha"src="imagenes/imagen oso.png"></a>
+<a href="articulo 10.html"><img id="izquierda" src="imagenes/imagen pato.png"></a>
 </div>
 
 <div id="Formulario">
@@ -64,7 +204,7 @@
 
 
 <!-- a -->
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 <script src="Proyecto final.js"></script>
 
 </body>

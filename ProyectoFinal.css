@@ -1,0 +1,135 @@
+.hola {
+   background-color: rgb(205, 192, 7);
+}
+
+.imagenes {
+    margin-top: 10%;
+    margin: 5%;
+   
+}
+   
+#izquierda {
+    
+    border: 3px solid black ;
+    margin-top: 5%;
+    background-color: rgb(0, 0, 0);
+}
+
+#centro{
+    margin-top: -42%;
+    border: 3px solid black;
+    margin-left: 37%;
+    background-color: rgb(7, 7, 7);
+}
+
+#derecha {
+    margin-top: -42%;
+    border: 3px solid black ;
+    margin-left: 75%;
+    background-color: rgb(7, 7, 7);
+}
+
+#logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 17%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+    
+h1{
+    margin-left: 1%;
+    margin-top: -6%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 250%;
+    color: rgb(205, 192, 7);
+    margin-bottom: 2%;
+}
+
+#menu{
+    margin-top: -4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: rgb(205, 192, 7);
+    margin-left: 30%;
+    color: black;
+}
+
+header {
+    background-color: rgb(6, 6, 6);
+    margin-top: -1%;
+    margin-left: -1%;
+    margin-right: -1%;
+    }
+
+
+#barra {
+    margin-left: 35%;
+    margin-right: 36%;
+    margin-top: -4%;
+}
+
+#boton {
+   margin-right: -65%;}
+
+#Precios{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-style: 3px solid rgb(0, 0, 0);
+    color: rgb(205, 192, 7);
+}
+
+#lista{
+    background-color: rgb(212, 165, 11);
+}
+
+#Foto{
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+#texto_foto{
+    background-color: rgb(223, 162, 64);
+}
+
+h3{
+    font-size: 50px;
+    text-align: center;
+    background-color: rgb(252, 250, 248);
+}
+
+h4{
+    font-size: 25px;
+    text-align: center;
+    background-color: rgb(241, 231, 165);
+}
+
+h5{
+    font-size: 40px;
+    text-align: center;
+    background-color:  rgb(241, 231, 165);
+}
+
+
+
+/*  
+
+#boton{
+    margin-top: 10%;
+    margin-left: 50%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+
+.Darkk_Button {
+   background-color: rgb(205, 182, 226);
+}
+
+
+
+background-color: rgb(156, 76, 199);
+
+background-color: rgb(223, 194, 236);*/
