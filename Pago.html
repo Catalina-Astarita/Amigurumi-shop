@@ -46,13 +46,13 @@
 
 
  <div id="formulariopago"> 
-    <h3>Le solicitamos que rellene el siguiente formulario para coordinar metodos de pago y direccion de entrega</h3>
+    <h3 id="tformulario">Le solicitamos que rellene el siguiente formulario para coordinar metodos de pago y direccion de entrega</h3>
     <form action="get" id="formulario">
-        <label>Ingrese nombre completo:<input type="text" name="Nom" placeholder="Nombre:" required></label>
-        <label>Ingrese su edad:<input type="number" name="edad" placeholder="Edad:" required></label>
-        <label for="email">Ingrese su email:</label><input type="email" name="email" placeholder="Email:" required>
-        <label>Ingrese su numero de telefono:<input type="tel" name="Tel" placeholder="Telefono:"required></label>
-        <label for="pago">Ingrese el metodo de pago que preferiria utilizar:</label>
+        <label><input type="text" name="Nom" placeholder="Nombre:" required></label>
+        <label><input type="number" name="edad" placeholder="Edad:" required></label>
+        <label for="email"></label><input type="email" name="email" placeholder="Email:" required>
+        <label><input type="tel" name="Tel" placeholder="Telefono:"required></label>
+        <label for="pago"></label>
      <select name="pago" id="pago">
         <option value="TR">Tarjeta</option>
         <option value="EF">Efectivo</option>
