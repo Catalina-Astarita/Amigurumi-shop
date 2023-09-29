@@ -1,4 +1,4 @@
-.hola {
+body {
    background-color: rgb(205, 192, 7);
 }
 
@@ -51,7 +51,7 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 15px;
     background-color: rgb(205, 192, 7);
-    margin-left: 30%;
+    margin-left: 65%;
     color: black;
 }
 
@@ -84,16 +84,6 @@ header {
     background-color: rgb(212, 165, 11);
 }
 
-#Foto{
-    width: 70%;
-    text-align: center;
-    margin-left: 15%;
-}
-
-#texto_foto{
-    background-color: rgb(223, 162, 64);
-}
-
 h3{
     font-size: 50px;
     text-align: center;
@@ -101,16 +91,97 @@ h3{
 }
 
 h4{
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
     background-color: rgb(241, 231, 165);
 }
 
-h5{
-    font-size: 40px;
+#mejor{
+    font-size: 35px;
     text-align: center;
     background-color:  rgb(241, 231, 165);
+    margin-top: 10%;
 }
+
+#promo1{
+    margin-left: -28%;
+    margin-left: 4%;
+    border: 3px solid white;
+}
+
+#promo2{
+    margin-left: 23%;
+    margin-top: -20%;
+    border: 3px solid white;
+}
+
+#promo3{
+    margin-left: 42%;
+    margin-top: -28%;
+    border: 3px solid white;
+}
+
+#promo4{
+    margin-left: 61%;
+    margin-top: -20%;
+    border: 3px solid white;
+}
+
+#promo5{
+    margin-left: 80%;
+    margin-top: -28%;
+    border: 3px solid white;
+}
+
+#metodospago{
+      color: rgb(8, 8, 8);
+      text-decoration: none;
+      margin-left: 8%;
+      
+}
+
+#principal{
+    color: rgb(8, 8, 8);
+    text-decoration: none;
+    margin-left: 8%;
+}
+
+#formulariopago{
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+#formulario input, select, textarea{ 
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    margin: 3%;
+    background-color: beige;
+  }
+
+#formulario{
+    margin-left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: black;
+    margin-bottom: -1%;
+    
+}
+
 
 
 

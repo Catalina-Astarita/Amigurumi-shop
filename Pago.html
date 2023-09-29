@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oveja Negra/Metodos de Pago</title>
+    <link rel="stylesheet" href="ProyectoFinal.css">
+    <link rel="icon" href="imagenes/imagen.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    
+    <header>
+        <nav>
+          <div>
+            <img id="logo" src="imagenes/imagen.png">
+           <h1>Oveja Negra</h1>
+           
+            <nav id="barra" class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form  class="d-flex" role="search">
+                <input id="buscador" class="form-control me-2"  data-bs-toggle="dropdown" type="search" placeholder="Buscar" aria-label="Search">
+                <button id="boton" class="btn btn-outline-success" type="submit">Buscar producto</button>
+              </form>
+            </div>
+          </nav>
+
+          <button id="menu" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu
+          </button>
+          <ul id="lista" class="dropdown-menu Dropdown-menu-dark">
+            <li><a class="dropdown-item" href="#Informacion">Informacion de la tienda</a></li>
+            <li><a id="principal" href="index.html">Principal</a></li>
+            <li><a class="dropdown-item" href="#Promos">Promos</a></li>
+            <li><a class="dropdown-item" href="#Productos">Productos</a></li>
+            <li><a class="dropdown-item" href="#Personalizacion">Personalizacion</a></li>
+            <li><a id="metodospago" href="Pago.html">Metodos de pago</a></li>
+            <li><a class="dropdown-item" href="#Formulario">Ayuda</a></li>
+          </ul>
+
+          </div>
+        </nav>
+      </header>
+    </div> 
+
+
+ <div id="formulariopago"> 
+    <h3>Le solicitamos que rellene el siguiente formulario para coordinar metodos de pago y direccion de entrega</h3>
+    <form action="get" id="formulario">
+        <label>Ingrese nombre completo:<input type="text" name="Nom" placeholder="Nombre:" required></label>
+        <label>Ingrese su edad:<input type="number" name="edad" placeholder="Edad:" required></label>
+        <label for="email">Ingrese su email:</label><input type="email" name="email" placeholder="Email:" required>
+        <label>Ingrese su numero de telefono:<input type="tel" name="Tel" placeholder="Telefono:"required></label>
+        <label for="pago">Ingrese el metodo de pago que preferiria utilizar:</label>
+     <select name="pago" id="pago">
+        <option value="TR">Tarjeta</option>
+        <option value="EF">Efectivo</option>
+        <option value="CD">Cuenta de DNI</option>
+        <option value="MP">Mercado Pago</option>
+     </select>
+          <label>¿Esta tomando algun medicamento?<br>Si:
+           <input name="medicina" type="radio" value="si" id="radio">
+          </label>
+         <label>No:
+           <input name="medicina" type="radio" value="no"id="radio">
+         </label>
+         <label for="importante">En caso de que su respuesta sea "si"<br>por favor especificar cual y porque motivo:<br>
+           <textarea name="texto" rows="8" cols="32"></textarea>
+         </label>
+         <label for="checkbox">Estoy de acuerdo con recibir emails que<br>brindaran informacion respecto al viaje<br> y a la empresa:
+           <input id="no" name="checkbox" type="checkbox" value="consentimiento">
+         </label>
+         <input type="submit" value="Enviar">
+    </form>
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="Proyecto final.js"></script>
+
+</body>
+</html>
