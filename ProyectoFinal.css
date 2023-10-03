@@ -73,6 +73,7 @@ header {
     margin-left: 35%;
     margin-right: 36%;
     margin-top: -4%;
+    margin-bottom: 2%;
 }
 
 #boton {
@@ -147,7 +148,7 @@ h4{
 #metodospago{
       color: rgb(8, 8, 8);
       text-decoration: none;
-      margin-left: 8%;
+      margin-left: 5%;
       
 }
 
@@ -236,8 +237,21 @@ footer{
     
 }
 
+#elements{
+    margin-top: 8%;
+}
 
 
+#si{
+    margin-top: 2%;
+    margin-left: 95%;
+    margin-right: 15%;
+    background-color: rgb(233, 200, 39);
+}
+
+#no{   
+    background-color: rgb(219, 173, 8);
+}
 
 /*  
 
