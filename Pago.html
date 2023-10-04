@@ -11,38 +11,56 @@
 
 <body>
     
-    <header>
-        <nav>
-          <div>
-            <img id="logo" src="imagenes/imagen.png">
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="col-md-12">
+        <div class="container-fluid">
+          <img id="logo" src="imagenes/imagen.png">
            <h1>Oveja Negra</h1>
-           
-            <nav id="barra" class="navbar bg-body-tertiary">
-            <div class="container-fluid">
-              <form  class="d-flex" role="search">
-                <input id="buscador" class="form-control me-2"  data-bs-toggle="dropdown" type="search" placeholder="Buscar" aria-label="Search">
-                <button id="boton" class="btn btn-outline-success" type="submit">Buscar producto</button>
+              <form id="barra" class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search" id="buscador">
+                <button id="boton" class="btn btn-outline-success" type="submit">Buscar</button>
               </form>
-            </div>
-          </nav>
+        </div>
+      </div>
+    </nav>
 
-          <button id="menu" class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-            Menu
+      <nav id="si" class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <button id="si" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"  data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span id="no" class="navbar-toggler-icon"></span>
           </button>
-          <ul id="lista" class="dropdown-menu Dropdown-menu-dark">
-            <li><a class="dropdown-item" href="#Informacion">Informacion de la tienda</a></li>
-            <li><a id="principal" href="index.html">Principal</a></li>
-            <li><a class="dropdown-item" href="#Promos">Promos</a></li>
-            <li><a class="dropdown-item" href="#Productos">Productos</a></li>
-            <li><a class="dropdown-item" href="#Personalizacion">Personalizacion</a></li>
-            <li><a id="metodospago" href="Pago.html">Metodos de pago</a></li>
-            <li><a class="dropdown-item" href="#Formulario">Ayuda</a></li>
-          </ul>
-
-          </div>
-        </nav>
-      </header>
-    </div> 
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 id="menu" class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li id="inicio1" class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li id="guia" class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Sucursales</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a id="guia" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Guía
+                  </a>
+                    <ul id="lista" class="dropdown-menu Dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="Info.html">Información de la tienda</a></li>
+                    <li><a class="dropdown-item" href="#Promos">Promos</a></li>
+                    <li><a class="dropdown-item" href="#Productos">Productos</a></li>
+                    <li><a class="dropdown-item" href="#Personalizacion">Personalización</a></li>
+                    <li><a class="dropdown-item" href="Pago.html">Métodos de pago</a></li>
+                    <li><a class="dropdown-item" href="#Formulario">Ayuda</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+         </div>
+       </nav>
+    </header>
 
 
  <div id="formulariopago"> 

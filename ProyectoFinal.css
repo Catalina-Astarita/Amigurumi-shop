@@ -34,31 +34,26 @@ body {
     width: 70px;
     height: 70px;
     margin-left: 17%;
-    margin-top: 2%;
-    margin-bottom: 3%;
+   
 }
     
 h1{
+   margin-top: -3%;
     margin-left: 1%;
-    margin-top: -6%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 250%;
     color: rgb(205, 192, 7);
-    margin-bottom: 2%;
+    
 }
 
 #menu{
-    margin-top: -4%;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 15px;
-    background-color: rgb(205, 192, 7);
-    margin-left: 65%;
-    color: black;
+    font-size: 25px;
+
 }
 
 header {
-    background-color: rgb(6, 6, 6);
-    margin-top: -1%;
+    background-color: rgb(0, 0, 0);
     margin-left: -1%;
     margin-right: -1%;
     position: fixed;
@@ -70,20 +65,21 @@ header {
 
 
 #barra {
-    margin-left: 35%;
-    margin-right: 36%;
-    margin-top: -4%;
+    margin-left: 25%;
+    margin-right: 42%;
+    margin-top: -3%;
     margin-bottom: 2%;
 }
 
 #boton {
    margin-right: -65%;
-   color: rgb(0, 0, 0);
-   border: 1px solid rgb(0, 0, 0);
+   color: rgb(232, 223, 223);
+   border: 1px solid rgb(246, 245, 245);
 }
 
 #buscador{
-    margin-left: 5%;
+    margin-left: 22%;
+    
 }
 
 
@@ -97,6 +93,8 @@ header {
 
 #lista{
     background-color: rgb(228, 193, 78);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
 
 
@@ -143,13 +141,6 @@ h4{
     margin-left: 80%;
     margin-top: -28%;
     border: 3px solid white;
-}
-
-#metodospago{
-      color: rgb(8, 8, 8);
-      text-decoration: none;
-      margin-left: 5%;
-      
 }
 
 #inicio{
@@ -200,7 +191,7 @@ label{
     width: 104%;
     opacity: 90%;
     margin-left: -2%;
-    margin-top: 5%;
+    margin-top: 6%;
 }
 
 #cuenta{
@@ -240,8 +231,6 @@ footer{
 #elements{
     margin-top: 8%;
 }
-
-
 #si{
     margin-top: 2%;
     margin-left: 95%;
@@ -252,6 +241,25 @@ footer{
 #no{   
     background-color: rgb(219, 173, 8);
 }
+
+#inicio1{
+    font-size: 20px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+#guia{
+    font-size: 20px;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 5%;
+}
+
+#linea{
+    background-color: black;
+}
+
+
 
 /*  
 

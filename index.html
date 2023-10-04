@@ -13,21 +13,19 @@
 <body class="hola">
 
 
-
     <header>
-        <nav>
+        <nav class="navbar navbar-expand-lg">
           <div class="col-md-12">
-            <img id="logo" src="imagenes/imagen.png">
-           <h1>Oveja Negra</h1>
-           
-            <nav id="barra" class="navbar bg-body-tertiary">
             <div class="container-fluid">
-              <form class="d-flex" role="search">
-                <input id="buscador" class="form-control me-2"  data-bs-toggle="dropdown" type="search" placeholder="Buscar" aria-label="Search">
-                <button id="boton" class="btn btn-outline-success" type="submit">Buscar producto</button>
-              </form>
+              <img id="logo" src="imagenes/imagen.png">
+               <h1>Oveja Negra</h1>
+                  <form id="barra" class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search" id="buscador">
+                    <button id="boton" class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
             </div>
-          </nav>
+          </div>
+        </nav>
 
           <nav id="si" class="navbar navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
@@ -36,85 +34,37 @@
               </button>
               <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
                 <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                  <h5 id="menu" class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
                   <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
+                    <li id="inicio1" class="nav-item">
                       <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
+                    <li id="guia" class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Sucursales</a>
+                    </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Guia
+                      <a id="guia" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Guía
                       </a>
                         <ul id="lista" class="dropdown-menu Dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="#Informacion">Informacion de la tienda</a></li>
+                        <li><a class="dropdown-item" href="Info.html">Información de la tienda</a></li>
                         <li><a class="dropdown-item" href="#Promos">Promos</a></li>
                         <li><a class="dropdown-item" href="#Productos">Productos</a></li>
-                        <li><a class="dropdown-item" href="#Personalizacion">Personalizacion</a></li>
-                        <li><a id="metodospago" href="Pago.html">Metodos de pago</a></li>
+                        <li><a class="dropdown-item" href="#Personalizacion">Personalización</a></li>
+                        <li><a class="dropdown-item" href="Pago.html">Métodos de pago</a></li>
                         <li><a class="dropdown-item" href="#Formulario">Ayuda</a></li>
                       </ul>
                     </li>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </nav>
-        </div>
-      </nav>
-    </header>
-  </div> 
+             </div>
+           </nav>
+        </header>
+      
 
-    <nav id="si" class="navbar bg-body-tertiary fixed-top">
-      <div class="container-fluid">
-        <button id="si" class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-          <span id="si" class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-
-<div id="elements" class="w-50 mx-auto mt-20">
-  <ul class="list-group text-center">
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Rosa</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Girasol</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Crisantemo</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Amapola</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Conejo</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Elefante</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Dragon</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Igor</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Tigger</li>
-    <li class="list-group-item list-group-item-action list-group-item-secondary">Winnie Pooh</li>
-  </ul>
-</div>
 
 
 <div>
@@ -129,8 +79,8 @@
     </div>
     <div class="col-md-8">
       <div id="fotoenvio" class="card-body">
-        <h5 class="card-title">Paga con cuenta de DNI</h5>
-        <p class="card-text">Estamos adheridos a la promocion de miercoles y jueves</p>
+        <h5 class="card-title">Pagá con cuenta de DNI</h5>
+        <p class="card-text">Estamos adheridos a la promoción de miércoles y jueves</p>
       </div>
     </div>
   </div>
@@ -143,7 +93,7 @@
     </div>
     <div class="col-md-8">
       <div id="fotoenvio" class="card-body">
-        <h5 class="card-title">Hace tu pedido</h5>
+        <h5 class="card-title">Hacé tu pedido</h5>
         <p class="card-text">Comunicate con nosotros por whatshapp de 8:00hs a 16:00hs</p>
       </div>
     </div>
@@ -157,8 +107,8 @@
     </div>
     <div class="col-md-8">
       <div id="fotoenvio" class="card-body">
-        <h5 class="card-title">Coordina un envio</h5>
-        <p class="card-text">Tu pedido llega dentro de las proximas 48hs</p>
+        <h5 class="card-title">Coordiná un envío</h5>
+        <p class="card-text">Tu pedido llega dentro de las próximas 48hs</p>
       </div>
     </div>
   </div>
@@ -206,103 +156,139 @@
    
  --> 
 
-<h5 id="mejor">Lo mas vendido</h5>
+
+<div class="elements">
+  <ul>
+    <li class="fin"><a href=".rosa"></a></li>
+    <li class="fin"><a href=".amapola"></a></li>
+    <li class="fin"><a href=".crisantemo"></a></li>
+    <li class="fin"><a href=".dragon"></a></li>
+    <li class="fin"><a href=".conejo"></a></li>
+    <li class="fin"><a href=".girasol"></a></li>
+    <li class="fin"><a href=".tigger"></a></li>
+    <li class="fin"><a href=".elefante"></a></li>
+  </ul>
+</div>
+
+
+
+
+
+
+
+<h5 id="mejor">Lo más vendido</h5>
 
 
 <div id="Productos" class="imagenes">
-    <div  id="izquierda" class="card" style="width: 25rem;">
+    <div  id="izquierda"  class="card" style="width: 25rem;">
       <img src="imagenes/imagen rosa.png" class="card-img-top">
-      <div class="card-body">
+      <div  class="card-body">
         <p id="Precios" class="card-text">Precio: $350<br><br>Rosa reversible tejida
           al crochet<br>Tamaño: 10cm</p>
       </div>
     </div>
     <div id="centro" class="card" style="width: 25rem;">
       <img src="imagenes/imagen amapola.png" class="card-img-top">
-      <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $358<br><br>Amapola reversible tejida
+      <div  class="card-body">
+        <p id="Precios"  class="card-text amapola">Precio: $358<br><br>Amapola reversible tejida
           al crochet<br>Tamaño: 10cm</p>
       </div>
     </div>
-    <div id="derecha" class="card" style="width: 25rem;">
+    <div id="derecha"  class="card" style="width: 25rem;">
       <img src="imagenes/imagen flor mia.png" class="card-img-top">
-      <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $357<br><br>Crisantemo reversible tejida
+      <div  class="card-body">
+        <p id="Precios"  class="card-text crisantemo">Precio: $357<br><br>Crisantemo reversible tejida
           al crochet<br>Tamaño: 10cm</p>
       </div>
     </div>
-    <div id="izquierda" class="card" style="width: 25rem;">
+    <div id="izquierda"  class="card" style="width: 25rem;">
       <img src="imagenes/imagen dragon.png" class="card-img-top">
-      <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero de dragon tejido al crochet
+      <div  class="card-body">
+        <p id="Precios"  class="card-text dragon">Precio: $350<br><br>Llavero de dragon tejido al crochet
           <br>Tamaño: 8cm</p>
       </div>
     </div>
-    <div id="centro" class="card" style="width: 25rem;">
+    <div id="centro"  class="card" style="width: 25rem;">
       <img src="imagenes/imagen elefante.png" class="card-img-top">
-      <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero de elefante tejido al crochet
+      <div  class="card-body">
+        <p id="Precios" class="card-text elefante">Precio: $350<br><br>Llavero de elefante tejido al crochet
           <br>Tamaño: 8cm</p>
       </div>
     </div>
-    <div id="derecha" class="card" style="width: 25rem;">
+    <div id="derecha"  class="card" style="width: 25rem;">
       <img src="imagenes/imagen conejo.png" class="card-img-top">
-      <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero de conejo tejido al crochet
+      <div  class="card-body">
+        <p id="Precios"  class="card-text conejo">Precio: $350<br><br>Llavero de conejo tejido al crochet
           <br>Tamaño: 8cm</p>
       </div>
     </div>
     <div  id="izquierda" class="card" style="width: 25rem;">
       <img src="imagenes/imagen girasol.png" class="card-img-top">
-      <div class="card-body">
-        <p id="Precios" class="card-text">PRECIO: $350<br><br>Girasol reversible tejida
+      <div  class="card-body">
+        <p id="Precios" class="card-text girasol">PRECIO: $350<br><br>Girasol reversible tejida
         al crochet<br>Tamaño: 10cm</p>
       </div>
     </div>
     <div id="centro" class="card" style="width: 25rem;">
       <img src="imagenes/Piglet.png" class="card-img-top">
       <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero de Piglet tejido al crochet
+        <p id="Precios" class="card-text Piglet">Precio: $350<br><br>Llavero de Piglet tejido al crochet
           <br>Tamaño: 8cm</p>
       </div>
     </div>
     <div id="derecha" class="card" style="width: 25rem;">
       <img src="imagenes/Star Wars.png" class="card-img-top">
       <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero del Maestro Yoda tejido al crochet
+        <p id="Precios" class="card-text Star">Precio: $350<br><br>Llavero del Maestro Yoda tejido al crochet
           <br>Tamaño: 8cm</p>
       </div>
     </div>
     <div id="izquierda" class="card" style="width: 25rem;">
       <img src="imagenes/Tigger.png" class="card-img-top">
       <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero de Tigger tejido al crochet
+        <p id="Precios" class="card-text tigger">Precio: $350<br><br>Llavero de Tigger tejido al crochet
           <br>Tamaño: 8cm</p>
       </div>
     </div>
     <div id="centro" class="card" style="width: 25rem;">
       <img src="imagenes/Igor.png" class="card-img-top">
       <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero de Igor tejido al crochet
+        <p id="Precios" class="card-text igor">Precio: $350<br><br>Llavero de Igor tejido al crochet
           <br>Tamaño: 8cm</p>
       </div>
     </div>
     <div id="derecha" class="card" style="width: 25rem;">
       <img src="imagenes/Winnie Pooh.png" class="card-img-top">
       <div class="card-body">
-        <p id="Precios" class="card-text">Precio: $350<br><br>Llavero de Winnie Pooh tejido al crochet
+        <p id="Precios" class="card-text Winnie">Precio: $350<br><br>Llavero de Winnie Pooh tejido al crochet
           <br>Tamaño: 8cm</p>
       </div>
     </div>
   </div>
 
 
+<p id="linea">-</p>
+
+<div>
+  <form id="formulario">
+    <label><input type="text" name="Nom" placeholder="Nombre:" required></label>
+        <label><input type="number" name="edad" placeholder="Edad:" required></label>
+        <label for="email"></label><input type="email" name="email" placeholder="Email:" required>
+        <label><input type="tel" name="Tel" placeholder="Telefono:"required></label>
+        <label for="importante">En caso de que su respuesta sea "si"<br>por favor especificar cual y porque motivo:<br>
+          <textarea name="texto" rows="8" cols="32"></textarea>
+        </label>
+        <label for="checkbox">La tienda no hace responsable por los accidentes<br>de robo de datos acuerdo a sus politicas
+          <input id="no" name="checkbox" type="checkbox" value="consentimiento">
+        </label>
+        <input type="submit" value="Enviar">
+  </form>
+</div>
 
 
 
 
-
-
+Al enviar el formulario la tienda podra disponer libremente de sus datos<br>¿Desea continuar? en un alert
 
 
 
@@ -333,7 +319,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-<script src="Proyecto final.js"></script>
+<script src="script.js"></script>
 
 </body>
 </html>
