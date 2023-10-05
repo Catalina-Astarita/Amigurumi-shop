@@ -55,7 +55,7 @@
                         <li><a class="dropdown-item" href="#Productos">Productos</a></li>
                         <li><a class="dropdown-item" href="#Personalizacion">Personalización</a></li>
                         <li><a class="dropdown-item" href="Pago.html">Métodos de pago</a></li>
-                        <li><a class="dropdown-item" href="#Formulario">Ayuda</a></li>
+                        <li><a class="dropdown-item" href="#Ayuda">Ayuda</a></li>
                       </ul>
                     </li>
                   </ul>
@@ -269,19 +269,27 @@
 
 <p id="linea">-</p>
 
+<p id="mensaje">Puede comunicar su problema completando el siguiente formulario.<br>
+   La respuesta llegará por e-mail dentro de las próximas 72hs.<br></p>
+<p id="mensaje">Las políticas de la tienda se encuentran en<br>
+   la sección "Información de la Tienda" del menú</p>
+<p id="mensaje">Le agradecemos por su paciencia</p>
+<p id="mensaje">Oveja Negra</p>
+
 <div>
-  <form id="formulario">
+  <form id="Ayuda">
     <label><input type="text" name="Nom" placeholder="Nombre:" required></label>
         <label><input type="number" name="edad" placeholder="Edad:" required></label>
-        <label for="email"></label><input type="email" name="email" placeholder="Email:" required>
-        <label><input type="tel" name="Tel" placeholder="Telefono:"required></label>
-        <label for="importante">En caso de que su respuesta sea "si"<br>por favor especificar cual y porque motivo:<br>
-          <textarea name="texto" rows="8" cols="32"></textarea>
+        <label for="email"><input type="email" name="email" placeholder="E-mail:" required></label>
+        <label><input type="tel" name="Tel" placeholder="Teléfono:"required></label>
+        <label><p id="q">A continuación detalle su problema:</p>
+          <textarea name="texto" rows="10" cols="40" required></textarea>
         </label>
-        <label for="checkbox">La tienda no hace responsable por los accidentes<br>de robo de datos acuerdo a sus politicas
-          <input id="no" name="checkbox" type="checkbox" value="consentimiento">
+        <label><p id="p">La tienda no hace responsable por<br> los accidentes
+           de robo de datos<br> de acuerdo a sus políticas</p>
+          <input name="checkbox" type="checkbox" value="consentimiento" required>
         </label>
-        <input type="submit" value="Enviar">
+        <input type="submit" value="Enviar"></label>
   </form>
 </div>
 

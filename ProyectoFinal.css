@@ -6,7 +6,6 @@ body {
 .imagenes {
     margin-top: 10%;
     margin: 5%;
-   
 }
    
 #izquierda {
@@ -17,14 +16,14 @@ body {
 }
 
 #centro{
-    margin-top: -42%;
+    margin-top: -40%;
     border: 3px solid black;
     margin-left: 37%;
     background-color: rgb(7, 7, 7);
 }
 
 #derecha {
-    margin-top: -42%;
+    margin-top: -41%;
     border: 3px solid black ;
     margin-left: 75%;
     background-color: rgb(7, 7, 7);
@@ -257,26 +256,71 @@ footer{
 
 #linea{
     background-color: black;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
 }
 
+#mensaje{
+    margin-left: 15%;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 3%;
+    background-color: rgb(255, 196, 114);
+    margin-right: 55%;
+    text-align: center;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 2%;
+}
 
-
-/*  
-
-#boton{
-    margin-top: 10%;
-    margin-left: 50%;
+#Ayuda, input,textarea{
+    margin-left: 40%;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    }
+    margin-top: 3%;
+    display: block;
+    margin-right: 20%;
+    text-align: center;}
 
+#Ayuda{
+    margin-top: -23%;}
 
-.Darkk_Button {
-   background-color: rgb(205, 182, 226);
+#p{
+   text-align: left;
+   margin-left: 40%;
+   margin-top: -3%;}
+
+input, textarea{
+    background-color: rgb(243, 233, 118);
+    border: 2px solid black;}
+
+#q{
+   text-align: left;
+   margin-left: 40%;
+}
+
+#texto{
+    font-size: 25px;
+    margin-top: 2%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 40%;
+}
+
+#tejedora{
+    margin-left: 65%;
+    margin-top: -90%;
+    margin-bottom: 32%;
+    border: 2px solid black;
+}
+
+#titulo1{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 10%;
+    color: black;
 }
 
 
-
-background-color: rgb(156, 76, 199);
-
-background-color: rgb(223, 194, 236);*/
+/*
+  
+*/
