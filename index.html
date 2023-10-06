@@ -10,7 +10,7 @@
   </head>
 
 
-<body class="hola">
+<body>
 
 
     <header>
@@ -43,7 +43,7 @@
                       <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li id="guia" class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Sucursales</a>
+                      <a class="nav-link active" aria-current="page" href="sucursales.html">Sucursales</a>
                     </li>
                     <li class="nav-item dropdown">
                       <a id="guia" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -53,7 +53,7 @@
                         <li><a class="dropdown-item" href="Info.html">Información de la tienda</a></li>
                         <li><a class="dropdown-item" href="#Promos">Promos</a></li>
                         <li><a class="dropdown-item" href="#Productos">Productos</a></li>
-                        <li><a class="dropdown-item" href="#Personalizacion">Personalización</a></li>
+                        <li><a class="dropdown-item" href="Personalizacion.html">Personalización</a></li>
                         <li><a class="dropdown-item" href="Pago.html">Métodos de pago</a></li>
                         <li><a class="dropdown-item" href="#Ayuda">Ayuda</a></li>
                       </ul>
@@ -119,33 +119,46 @@
 
 <div id="Promos">
 <div id="promo1" class="card" style="width: 18rem;">
-  <img src="imagenes/imagen conejo.png" class="card-img-top" alt="...">
+  <img src="imagenes/promo 1.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Somrd's content.</p>
+    <h5 id="Promosprecio" class="card-title">Precio: $500</h5>
+      <p id="ppromos" class="card-text"> 2x1<br>¡No te lo podés perder!<br>
+      Lo mejor de los guardianes de la galaxia en nuestra tienda<br>
+    </p>
   </div>
 </div>
 <div id="promo2" class="card" style="width: 18rem;">
-  <img src="imagenes/imagen conejo.png" class="card-img-top" alt="...">
+  <img src="imagenes/promo 2.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Somrd's content.</p>
+    <h5 id="Promosprecio" class="card-title">Precio: $500</h5>
+      <p id="ppromos" class="card-text"> 2x1<br>¡Winnie Pooh vuelve a ser tendencia!<br>
+    </p>
   </div>
 </div>
 <div id="promo3" class="card" style="width: 18rem;">
-  <img src="imagenes/imagen conejo.png" class="card-img-top" alt="...">
+  <img src="imagenes/promo 3.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Somrd's content.</p>
+    <h5 id="Promosprecio" class="card-title">Precio: $500</h5>
+      <p id="ppromos" class="card-text"> 2x1<br>¡Octubre comenzó!<br>
+      ¿Qué tal un gato negro para la fiesta?<br>
+    </p>
   </div>
 </div>
 <div id="promo4" class="card" style="width: 18rem;">
-  <img src="imagenes/imagen conejo.png" class="card-img-top" alt="...">
+  <img src="imagenes/promo 6.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Somrd's content.</p>
+    <h5 id="Promosprecio" class="card-title">Precio: $500</h5>
+      <p id="ppromos" class="card-text"> 2x1<br>¿Y si nos damos una vuelta por el mar?<br>
+    </p>
   </div>
 </div>
 <div id="promo5" class="card" style="width: 18rem;">
-  <img src="imagenes/imagen conejo.png" class="card-img-top" alt="...">
+  <img src="imagenes/promo 5.png" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Somrd's content.</p>
+  <h5 id="Promosprecio" class="card-title">Precio: $500</h5>
+    <p id="ppromos" class="card-text"> 2x1<br>Regalo perfecto para tu pareja<br>
+    Justo lo que estas buscando<br>
+  </p>
   </div>
 </div>
 </div>
@@ -277,13 +290,13 @@
 <p id="mensaje">Oveja Negra</p>
 
 <div>
-  <form id="Ayuda">
+  <form id="Ayuda" action="https://formspree.io/f/xbjvpwon" method="post">
     <label><input type="text" name="Nom" placeholder="Nombre:" required></label>
         <label><input type="number" name="edad" placeholder="Edad:" required></label>
-        <label for="email"><input type="email" name="email" placeholder="E-mail:" required></label>
+        <label for="e-mail"><input type="e-mail" name="email" placeholder="E-mail:" required></label>
         <label><input type="tel" name="Tel" placeholder="Teléfono:"required></label>
         <label><p id="q">A continuación detalle su problema:</p>
-          <textarea name="texto" rows="10" cols="40" required></textarea>
+          <textarea type="text" name="texto" rows="10" cols="40" required></textarea>
         </label>
         <label><p id="p">La tienda no hace responsable por<br> los accidentes
            de robo de datos<br> de acuerdo a sus políticas</p>
@@ -298,18 +311,6 @@
 
 Al enviar el formulario la tienda podra disponer libremente de sus datos<br>¿Desea continuar? en un alert
 
-
-
-
-
-
-<!--
-
-<div id="Formulario">
-<form>
-  <label>Ingrese nombre:<input type="text" name="Nom" placeholder="Nombre usuario:" required></label>
-</form>
-</div>
 
 
 <!-- a -->

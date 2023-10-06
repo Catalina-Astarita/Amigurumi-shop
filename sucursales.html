@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oveja Negra/Sucursales</title>
+    <link rel="stylesheet" href="ProyectoFinal.css">
+    <link rel="icon" href="imagenes/imagen.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+   
+    <header>
+        <nav class="navbar navbar-expand-lg">
+          <div class="col-md-12">
+            <div class="container-fluid">
+              <img id="logo" src="imagenes/imagen.png">
+               <h1>Oveja Negra</h1>
+                  <form id="barra" class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar producto" aria-label="Search" id="buscador">
+                    <button id="boton" class="btn btn-outline-success" type="submit">Buscar</button>
+                  </form>
+            </div>
+          </div>
+        </nav>
+
+          <nav id="si" class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <button id="si" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"  data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span id="no" class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 id="menu" class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li id="inicio1" class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                    </li>
+                    <li id="guia" class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="sucursales.html">Sucursales</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a id="guia" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Guía
+                      </a>
+                        <ul id="lista" class="dropdown-menu Dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="Info.html">Información de la tienda</a></li>
+                        <li><a class="dropdown-item" href="#Promos">Promos</a></li>
+                        <li><a class="dropdown-item" href="#Productos">Productos</a></li>
+                        <li><a class="dropdown-item" href="Personalizacion.html">Personalización</a></li>
+                        <li><a class="dropdown-item" href="Pago.html">Métodos de pago</a></li>
+                        <li><a class="dropdown-item" href="#Ayuda">Ayuda</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+             </div>
+           </nav>
+        </header>    
+
+
+<iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d32973.88912888238!2d-57.95967956800795!3d-34.92090046925066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1696549411379!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+<h1 id="titulomapa"><ins>Nuestras sucursales son 4 y se encuentran distribuidas por<br>
+ la Ciudad de La Plata y sus alrededores</ins></h1><br>
+
+<ul id="direcciones">
+    <li>La primera se ubica en 32 y 137</li><br>
+    <li>La segunda en 137 y 60</li><br>
+    <li>La tercera en 9 y 50</li><br>
+    <li>Y la ultima en 12 y 46</li>
+</ul>
+
+<div>
+    <div id="cuenta2" class="card mb-3" style="max-width: 440px;">
+     <div class="row g-0">
+       <div class="col-md-4">
+         <img src="imagenes/cuentaDNI.png" class="img-fluid rounded-start">
+       </div>
+       <div class="col-md-8">
+         <div id="fotoenvio" class="card-body">
+           <h5 class="card-title">Pagá con cuenta de DNI</h5>
+           <p class="card-text">Estamos adheridos a la promoción de miércoles y jueves</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   <div id="pedido2" class="card mb-3" style="max-width: 440px;">
+     <div class="row g-0">
+       <div class="col-md-4">
+         <img src="imagenes/Pedido.png" class="img-fluid rounded-start">
+       </div>
+       <div class="col-md-8">
+         <div id="fotoenvio" class="card-body">
+           <h5 class="card-title">Hacé tu pedido</h5>
+           <p class="card-text">Comunicate con nosotros por whatshapp de 8:00hs a 16:00hs</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   <div id="envio2" class="card mb-3" style="max-width: 440px;">
+     <div class="row g-0">
+       <div class="col-md-4">
+         <img  src="imagenes/delivery.png" class="img-fluid rounded-start">
+       </div>
+       <div class="col-md-8">
+         <div id="fotoenvio" class="card-body">
+           <h5 class="card-title">Coordiná un envío</h5>
+           <p class="card-text">Tu pedido llega dentro de las próximas 48hs</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   </div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
