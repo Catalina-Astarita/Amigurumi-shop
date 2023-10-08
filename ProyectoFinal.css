@@ -32,14 +32,14 @@ body {
 #logo {
     width: 70px;
     height: 70px;
-    margin-left: 17%;
+    margin-left: 13%;
    
 }
     
 h1{
    margin-top: -3%;
     margin-left: 1%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Mystery Quest', cursive;
     font-size: 250%;
     color: rgb(205, 192, 7);
     
@@ -60,25 +60,6 @@ header {
     left: 0%;
     top: 0%;
     z-index: 9999;
-}
-
-
-#barra {
-    margin-left: 25%;
-    margin-right: 42%;
-    margin-top: -3%;
-    margin-bottom: 2%;
-}
-
-#boton {
-   margin-right: -65%;
-   color: rgb(232, 223, 223);
-   border: 1px solid rgb(246, 245, 245);
-}
-
-#buscador{
-    margin-left: 22%;
-    
 }
 
 
@@ -255,7 +236,7 @@ label{
 #mensaje{
     margin-left: 15%;
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Mystery Quest', cursive;
     margin-top: 3%;
     background-color: rgb(255, 196, 114);
     margin-right: 55%;
@@ -293,7 +274,7 @@ input, textarea{
 #texto{
     font-size: 25px;
     margin-top: 2%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Mystery Quest', cursive;
     margin-right: 40%;
 }
 
@@ -313,10 +294,10 @@ input, textarea{
 
 
 #titulo1{
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
     margin-top: 10%;
     color: black;
+    font-family: 'Dancing Script', cursive;
 }
 
 #politicas{
@@ -411,6 +392,66 @@ input, textarea{
 
 #envio2:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
 #envio2 {overflow:hidden;}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #ec7e1e;
+}
+
+#instagram{
+    margin-left: 40%;
+}
+
+#youtube{
+    margin-left: 5%;
+}
+
+#facebook{
+    margin-left: 5%;
+}
+
+#f{
+    color: #ec7e1e;
+    margin-left: 42%;
+   
+}
+
+#e{
+    color: #ec7e1e;
+    margin-left: 46%;
+    margin-top: 2%;
+}
+
+#r{
+    color: #ec7e1e;
+    margin-left: 46%;
+    font-size: 25px;
+    margin-top: 3%;
+}
+
+#s{
+    background-color: #ec7e1e;
+    color: #ec7e1e;
+    margin-right: 62%;
+    margin-top: -1.5%;
+
+}
+
+#t{
+    color: #ec7e1e;
+    background-color: #ec7e1e;
+    margin-left: 61%;
+    margin-top: -2%;
+
+}
+
 
 /*
   
