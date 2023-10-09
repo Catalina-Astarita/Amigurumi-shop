@@ -1,4 +1,4 @@
-body {
+.blanco {
    background-color: rgb(233, 200, 39);
    position: relative;
 }
@@ -129,29 +129,7 @@ h4{
     margin-left: 8%;
 }
 
-#formulariopago{
-    color: rgb(205, 192, 7);
-    margin-left: 20%;
-    margin-right: 20%;
-    border: 3px solid black;
-    margin-top: 10%;
 
-}
-
-#formulario input, select, textarea{ 
-    display: block;
-    margin-top: 10px;
-    text-align: center;
-    margin: 10%;
-    background-color: rgb(235, 215, 115);
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    
-  }
-
-#formulario{
-    margin-left: 40%;
-}
 
 
 label{
@@ -171,7 +149,7 @@ label{
     width: 104%;
     opacity: 90%;
     margin-left: -2%;
-    margin-top: 7%;
+    margin-top: 6.8%;
 }
 
 #cuenta{
@@ -255,12 +233,11 @@ label{
     text-align: center;}
 
 #Ayuda{
-    margin-top: -23%;}
+    margin-top: -26%;}
 
 #p{
    text-align: left;
-   margin-left: 40%;
-   margin-top: -3%;}
+   margin-left: 40%;}
 
 input, textarea{
     background-color: rgb(243, 233, 118);
@@ -268,15 +245,13 @@ input, textarea{
 
 #q{
    text-align: left;
-   margin-left: 40%;
-}
+   margin-left: 40%;}
 
 #texto{
     font-size: 25px;
     margin-top: 2%;
     font-family: 'Mystery Quest', cursive;
-    margin-right: 40%;
-}
+    margin-right: 40%;}
 
 #tejedora{
     margin-left: 65%;
@@ -297,37 +272,30 @@ input, textarea{
     font-size: 35px;
     margin-top: 10%;
     color: black;
-    font-family: 'Dancing Script', cursive;
-}
+    font-family: 'Dancing Script', cursive;}
 
 #politicas{
     font-size: 25px;
     margin-top: 2%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 #agradecimiento{
     font-size: 25px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 #titulo2{
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-    margin-top: 5%;
-}
+    margin-top: 5%;}
 
 #Promosprecio{
     font-size: 25px;
-    text-align: center;
-}
+    text-align: center;}
 
 #ppromos{
     font-size: 20px;
-    text-align: center;
-
-}
+    text-align: center;}
 
 #cuenta:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
 #cuenta {overflow:hidden;}
@@ -342,47 +310,39 @@ input, textarea{
     margin-top: 10%;
     margin-left: 25%;
     width: 50%;
-    border-radius: 5%;
-    
-}
+    border-radius: 5%;}
 
 #titulomapa{
     color: black;
     font-size: 25px;
     margin-top: -25%;
-    margin-right: 75%;
-}
+    margin-right: 75%;}
 
 #direcciones{
     font-size: 20px;
     margin-right: 75%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+    font-family: Georgia, 'Times New Roman', Times, serif;}
 
 #cuenta2{
     margin-top: 12%;
     margin-left: 5%;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    background-color: rgb(255, 255, 255);
-}
+    background-color: rgb(255, 255, 255);}
 
 #pedido2{
     margin-top: -8%;
     margin-left: 38%;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    background-color: rgb(255, 255, 255);
-}
+    background-color: rgb(255, 255, 255);}
 
 #envio2{
     margin-top: -7.8%;
     margin-left: 70%;
     border-right: 2px solid black;
     border-bottom: 2px solid black;
-    background-color: rgb(255, 255, 255);
-
-}
+    background-color: rgb(255, 255, 255);}
 
 #cuenta2:hover{-webkit-transform:scale(1.3);transform:scale(1.3);}
 #cuenta2 {overflow:hidden;}
@@ -394,63 +354,181 @@ input, textarea{
 #envio2 {overflow:hidden;}
 
 footer{
-    background-color: rgb(0, 0, 0);
-    
-}
-
-
+    background-color: rgb(0, 0, 0);}
 
 a{
     text-decoration: none;
-    color: #ec7e1e;
-}
+    color: #ec7e1e;}
 
 #instagram{
-    margin-left: 40%;
-}
+    margin-left: 40%;}
 
 #youtube{
-    margin-left: 5%;
-}
+    margin-left: 5%;}
 
 #facebook{
-    margin-left: 5%;
-}
+    margin-left: 5%;}
 
 #f{
     color: #ec7e1e;
-    margin-left: 42%;
-   
-}
+    margin-left: 42%;}
 
 #e{
     color: #ec7e1e;
     margin-left: 46%;
-    margin-top: 2%;
-}
+    margin-top: 2%;}
 
 #r{
     color: #ec7e1e;
     margin-left: 46%;
     font-size: 25px;
-    margin-top: 3%;
-}
+    margin-top: 3%;}
 
 #s{
     background-color: #ec7e1e;
     color: #ec7e1e;
     margin-right: 62%;
-    margin-top: -1.5%;
-
-}
+    margin-top: -1.5%;}
 
 #t{
     color: #ec7e1e;
     background-color: #ec7e1e;
     margin-left: 61%;
-    margin-top: -2%;
+    margin-top: -2%;}
+
+#carro{
+    color:  rgb(255, 213, 3);
+    margin-left: 38%;
+    margin-top: -8%;}
+
+#github{
+    color: rgb(255, 213, 3);
+    margin-left: 10%;
+    margin-top: -8%;}
+
+#sol{
+    color: rgb(255, 213, 3);
+    margin-left: 10%;
+    margin-top: -8%;
+    background-color: black;
+}
+
+
+#formulario{
+    margin-left: 30%;
+    background-color: #ffdd76;}
+
+#formulario input, select { 
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    margin: 10%;
+    background-color: rgb(255, 231, 109);
+    font-size: 30px;
+    color: rgb(0, 0, 0);}
+
+#formulariopago{
+    background-color: #ffdd76;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 3px solid black;
+    margin-top: 10%;
+    color: black;}
+
+#b{
+    color: #ec7e1e;
+    background-color: #fca151;
+    margin-left: -43%;
+    margin-top: -5%;}
+
+#usuario{
+    margin-top: -25%;
+    margin-bottom: 13%;
+    margin-left: 5%;
+}
+
+#edad{
+    margin-top: -25%;
+    margin-bottom: 13%;
+    margin-left: 4%;
+}
+
+#email{
+    margin-top: -20%;
+    margin-bottom: 12%;
+    margin-left: 4%;
+}
+
+#telefono{
+    margin-top: -20%;
+    margin-bottom: 13%;
+    margin-left: 4%;
+}
+
+#tarjeta{
+    margin-top: -20%;
+    margin-bottom: 12.5%;
+    margin-left: 4%;
+}
+
+#lugar{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    margin-left: -5%;
+}
+
+#barrio{
+    margin-top: -20%;
+    margin-bottom: 13%;
+    margin-left: 4%;
+}
+
+#enviar{
+    margin-top: -5%;
+}
+
+.boton{
+    background-color: white
+}
+
+#Performulario{
+    margin-top: 13%;
+    background-color: #e99797;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 3px solid black;
 
 }
+
+#color{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+#Tpersonalizacion{
+    color: black;
+   
+    font-size: 25px;
+    text-align: center;
+    margin-top: -6%;
+}
+
+#Performulario input, textarea {
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+
+#acuerdo{
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    margin-right: 63%;
+    margin-bottom: -32%;
+
+}
+
 
 
 /*
