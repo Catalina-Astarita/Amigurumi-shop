@@ -32,3 +32,7 @@ El curso tuvo una duración de **6 meses (240 horas)**, con modalidad online y e
 ├── ProyectoFinal.css
 ├── script.js
 └── bootstrap/
+
+## 🔗 Demo en vivo
+
+[Ver tienda funcionando](https://catalinda1.github.io/Amigurumi-shop/)
