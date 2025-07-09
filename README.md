@@ -1,6 +1,34 @@
-La siguiente página web es una tienda online de venta de amigurumis.<br>
- La idea es ofrecer a los clientes la oportunidad de visualizar, personalizar y comprar los productos expuestos en ella, de forma clara y concisa.<br>
- Los pedidos y acuerdos de envío se realizarán por un medio de contacto exterior a la página, como WhattsApp, E-mail, Instagram, étc. Se puede abonar con tarjeta, efectivo o cuenta de DNI.<br>
- Para completar el pedido o especificar la personalización del producto el cliente debe completar un formulario con sus datos.<br>
- También existe un apartado con la información y las políticas de la tienda, y uno más con nuestras sucursales. <br>
- Es una página básica que cuenta con lo necesario para la venta de amigurumis hechos a mano.<br>
+# 🧸 Tienda Online de Amigurumis
+
+Este proyecto fue desarrollado como **trabajo final** del curso **Desarrollador Web Full Stack Jr.**, dictado por la empresa **Streambe** en el marco del programa **Generación T**.
+El curso tuvo una duración de **6 meses (240 horas)**, con modalidad online y en vivo, y abordó conceptos de frontend, backend, bases de datos, testing, y trabajo en equipo con metodologías ágiles.
+
+## 🧰 Tecnologías utilizadas
+
+- HTML5
+- CSS3 personalizado (`ProyectoFinal.css`)
+- JavaScript (interacción con el DOM)
+- Bootstrap (para estilos responsivos)
+
+## 🛍️ Funcionalidades destacadas
+
+- Página principal (`index.html`) con presentación visual
+- Barra de búsqueda funcional para productos
+- Páginas específicas:
+  - `Info.html`: información general
+  - `Pago.html`: métodos de pago
+  - `Personalizacion.html`: opciones de personalización de productos
+  - `sucursales.html`: localización de sucursales
+- Estilos personalizados y uso de Bootstrap local
+- Responsive design para distintos tamaños de pantalla
+
+## 📁 Estructura del proyecto
+
+├── index.html
+├── Info.html
+├── Pago.html
+├── Personalizacion.html
+├── sucursales.html
+├── ProyectoFinal.css
+├── script.js
+└── bootstrap/
