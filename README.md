@@ -35,4 +35,4 @@ El curso tuvo una duración de **6 meses (240 horas)**, con modalidad online y e
 
 ## 🔗 Demo en vivo
 
-[Ver tienda funcionando](https://github.com/catalina-astarita/Amigurumi-shop)
+[Ver tienda funcionando](https://catalina-astarita.github.io/Amigurumi-shop/)
