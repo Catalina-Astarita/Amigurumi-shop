@@ -1,143 +1,190 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Oveja Negra/Personalizacion</title>
+    <title>Oveja Negra / Personalización</title>
     <link rel="stylesheet" href="ProyectoFinal.css">
     <link rel="icon" href="imagenes/imagen.png">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet">
 </head>
 
 <body class="blanco">
     
+    <!-- Header General -->
     <header>
-        <nav class="navbar navbar-expand-lg">
-          <div class="col-md-12">
-            <div class="container-fluid">
-              <img id="logo" src="imagenes/imagen.png">
-               <h1>Oveja Negra</h1>
+      <nav class="navbar-header">
+        <div class="brand-container">
+          <img id="logo" src="imagenes/imagen.png" alt="Oveja Negra Logo">
+          <h1>Oveja Negra</h1>
+        </div>
 
-               <a href="index.html">
-                <svg id="carro" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-                 <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-               </svg></a>
-    
-              <a href="https://github.com/Catalinda1/Repositorio-git">
-               <svg id="github" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                 <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-               </svg></a>
-    
-               <svg id="sol" class="boton" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-sun" viewBox="0 0 16 16">
-                 <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
-               </svg>
+        <div class="search-container">
+          <input type="text" class="search-input" placeholder="Buscar amigurumis...">
+          <button type="button" class="search-btn">🔍</button>
+        </div>
+
+        <div class="header-actions">
+          <!-- Botón e Ícono del Carrito con Contador y Offcanvas -->
+          <a href="#" title="Carrito" data-bs-toggle="offcanvas" data-bs-target="#offcanvasCarrito" aria-controls="offcanvasCarrito" class="position-relative text-decoration-none">
+            <svg id="carro" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+            </svg>
+            <span id="contador-carrito" class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+          </a>
+
+          <a href="https://github.com/Catalinda1/Repositorio-git" target="_blank" title="GitHub">
+            <svg id="github" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+              <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+            </svg>
+          </a>
+
+          <svg id="sol" class="boton" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-sun" viewBox="0 0 16 16">
+            <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+          </svg>
+
+          <button id="si" class="btn-menu-toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            ☰
+          </button>
+        </div>
+      </nav>
+
+      <!-- Offcanvas Dropdown Navegación -->
+      <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 id="menu" class="offcanvas-title">Menú</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li id="inicio1" class="nav-item">
+              <a class="nav-link active" href="index.html">Inicio</a>
+            </li>
+            <li id="guia" class="nav-item">
+              <a class="nav-link active" href="sucursales.html">Sucursales</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a id="guia" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Guía
+              </a>
+              <ul id="lista" class="dropdown-menu dropdown-menu-dark">
+                <li><a class="dropdown-item" href="Info.html">Información de la tienda</a></li>
+                <li><a class="dropdown-item" href="index.html#Promos">Promos</a></li>
+                <li><a class="dropdown-item" href="index.html#Productos">Productos</a></li>
+                <li><a class="dropdown-item" href="Personalizacion.html">Personalización</a></li>
+                <li><a class="dropdown-item" href="Pago.html">Métodos de pago</a></li>
+                <li><a class="dropdown-item" href="index.html#Ayuda">Ayuda</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Panel Lateral del CARRITO DE COMPRAS (Offcanvas) -->
+      <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasCarrito" aria-labelledby="offcanvasCarritoLabel">
+        <div class="offcanvas-header border-bottom">
+          <h5 class="offcanvas-title fw-bold" id="offcanvasCarritoLabel">🛒 Tu Carrito</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body d-flex flex-column justify-content-between">
+          <!-- Lista de Productos Agregados -->
+          <div id="lista-carrito" class="my-3">
+            <p class="text-center text-muted">El carrito está vacío</p>
+          </div>
+
+          <!-- Resumen y Acciones del Carrito -->
+          <div class="border-top pt-3">
+            <div class="d-flex justify-content-between align-items-center mb-3 fs-5 fw-bold">
+              <span>Total:</span>
+              <span id="total-precio">$0</span>
+            </div>
+            <div class="d-grid gap-2">
+              <button id="enviar-whatsapp" class="btn btn-success fw-bold py-2">
+                Finalizar pedido por WhatsApp
+              </button>
+              <button id="vaciar-carrito" class="btn btn-outline-secondary btn-sm">
+                Vaciar Carrito
+              </button>
             </div>
           </div>
-        </nav>
+        </div>
+      </div>
+    </header>
 
-          <nav id="si" class="navbar navbar-dark bg-dark fixed-top">
-            <div class="container-fluid">
-              <button id="si" class="navbar-toggler" type="button" data-bs-toggle="offcanvas"  data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                <span id="no" class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                <div class="offcanvas-header">
-                  <h5 id="menu" class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menú</h5>
-                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li id="inicio1" class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li id="guia" class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="sucursales.html">Sucursales</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a id="guia" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Guía
-                      </a>
-                        <ul id="lista" class="dropdown-menu Dropdown-menu-dark">
-                        <li><a class="dropdown-item" href="Info.html">Información de la tienda</a></li>
-                        <li><a class="dropdown-item" href="#Promos">Promos</a></li>
-                        <li><a class="dropdown-item" href="#Productos">Productos</a></li>
-                        <li><a class="dropdown-item" href="#Personalizacion">Personalización</a></li>
-                        <li><a class="dropdown-item" href="Pago.html">Métodos de pago</a></li>
-                        <li><a class="dropdown-item" href="#Ayuda">Ayuda</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-             </div>
-           </nav>
-        </header>    
-
-
-  <div>      
-    <form id="Performulario" action="https://formspree.io/f/xbjvpwon" method="post">
-      <h1 id="Tpersonalizacion"><ins>Para personalizar su producto rellene el siguiente formulario:</ins></h1>
-      <label><input type="text" name="Nom" placeholder="Nombre:" required></label>
-      <h1 id="acuerdo">El vendedor se reserva el derecho de cambiar<br>
-       el color del producto pedido si no puede conseguirlo.<br>
-      Les pedimos que recuerden que todos los productos son<br>
-      hechos a mano y se intentará aproximarse lo máximo<br>
-      posible a las especificaciones pedidas.</h1>
-      <label><input type="number" name="edad" placeholder="Edad:" required></label>
-      <label for="e-mail"><input type="e-mail" name="email" placeholder="E-mail:" required></label>
-      <label><input type="tel" name="Tel" placeholder="Teléfono:"required></label>
-      <label><input type="text" name="Pro" placeholder="Nombre del producto:" required></label><br><br>
-     <label id="color" for="exampleColorInput" class="form-label">Elija el color de su amigurumi:</label>
-     <input type="color" name="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Choose your color">
-     <label><p id="q">A continuación detalle si desea realizarle algún otro cambio al producto:</p>
-        <textarea type="text" name="texto" rows="10" cols="40"></textarea><br>
-      </label>
-      <input type="submit" value="Enviar"></label><br>
-    </form>
-  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        <footer>
-          <p id="r"><ins>Redes Sociales</ins></p>
-          <div>
-          <a id="instagram" href="https://www.instagram.com/catu_1506/">
-          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="36" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-          </svg></a>
-          <a id="youtube" href="https://www.youtube.com/user/UCabtdFHBpr7OGsb-OhvS1uQ">
-          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="36" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
-          </svg></a><!--No deseo poner mi verdadera cuenta-->
-          <a id="facebook" href="https://www.facebook.com/Catalina Astarita">
-          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="36" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-          </svg></a><!--No deseo poner mi verdadera cuenta-->
-        </div> 
-          <p id="s">-</p>
-          <p id="t">-</p>
-          <style>
-            @import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap');
-          </style>
-          <br>
-          <a id="e" href="Info.html">Políticas de la tienda</a> 
-          <p id="f">Esta página fue creada por Catalina Astarita<br>
-          Todos los derechos de autor están reservados</p>
+    <!-- Contenedor del Formulario de Personalización -->
+    <main class="contenedor-personalizacion">
+      <form id="Performulario" action="https://formspree.io/f/xbjvpwon" method="post">
+        <h1 id="Tpersonalizacion">Para personalizar su producto rellene el siguiente formulario:</h1>
         
-        </footer>
+        <p id="acuerdo">
+          El vendedor se reserva el derecho de cambiar el color del producto pedido si no puede conseguirlo.<br>
+          Les pedimos que recuerden que todos los productos son hechos a mano y se intentará aproximarse lo máximo posible a las especificaciones pedidas.
+        </p>
 
+        <div class="form-group">
+          <input type="text" name="Nom" placeholder="Nombre:" required>
+        </div>
 
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+        <div class="form-group">
+          <input type="number" name="edad" placeholder="Edad:" required>
+        </div>
 
+        <div class="form-group">
+          <input type="email" name="email" placeholder="E-mail:" required>
+        </div>
+
+        <div class="form-group">
+          <input type="tel" name="Tel" placeholder="Teléfono:" required>
+        </div>
+
+        <div class="form-group">
+          <input type="text" name="Pro" placeholder="Nombre del producto:" required>
+        </div>
+
+        <div class="form-group color-picker-container">
+          <label id="color" for="exampleColorInput" class="form-label">Elija el color de su amigurumi:</label>
+          <input type="color" name="color" class="form-control form-control-color" id="exampleColorInput" value="#563d7c" title="Elija un color">
+        </div>
+
+        <div class="form-group">
+          <p id="q">A continuación detalle si desea realizarle algún otro cambio al producto:</p>
+          <textarea name="texto" rows="6" placeholder="Escriba aquí los detalles extra..."></textarea>
+        </div>
+
+        <input type="submit" value="Enviar" class="btn-submit-custom">
+      </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p id="r"><u>Redes Sociales</u></p>
+      <div class="social-icons">
+        <a id="instagram" href="https://www.instagram.com/catu_1506/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+          </svg>
+        </a>
+        <a id="youtube" href="https://www.youtube.com/user/UCabtdFHBpr7OGsb-OhvS1uQ" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+          </svg>
+        </a>
+        <a id="facebook" href="https://www.facebook.com/Catalina Astarita" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+        </a>
+      </div> 
+      <a id="e" href="Info.html">Políticas de la tienda</a> 
+      <p id="f">Esta página fue creada por Catalina Astarita<br>Todos los derechos reservados</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
